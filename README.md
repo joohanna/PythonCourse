@@ -5,12 +5,13 @@
 #The script should read a file and calculate the average lifetime and standard deviation of a hydrogenbond contact.
 
 1. Read file #list with file names for dynamical propagation of contacts which the program should calculate lifetime for.
+1.a Also open a residue libary file that contains the correct residues names.
 
 2. While iterating over this list of filenames:
 
-a. Open the file #each row in the file contains the number 1 (the contact is present at that frame number) or 0 (the contact is not present at that frame number)
-b. Save the rows in an array #contactPropagation
-c. Iterate over that array to generate a list of lifetimes
+2.a. Open the file #each row in the file contains the number 1 (the contact is present at that frame number) or 0 (the contact is not present a that frame number)
+2.b. Save the rows in an array #contactPropagation
+2.c. Iterate over that array to generate a list of lifetimes
 
 c.i. 
 If the array[i]=1 -> lifetime+=1 #update a variable called lifetime

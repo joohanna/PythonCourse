@@ -3,11 +3,6 @@
 In the file pseudocode is the pseudocode for the lifetime.py script
 
 
-Required Modules––––––––––––––––––––
-The script lifetime.py uses the python3 modules statistics and argparse
-
-
-
 The script lifetime.py calculates the lifetime for bridging water contacts between protein residues and dna residues (Protres-WAT-Dnares).
 The script requires three files:
 1. filenames.txt; a list of filenames of contacts which the script should calculate lifetimes for

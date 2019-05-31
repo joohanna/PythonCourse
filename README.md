@@ -6,7 +6,7 @@ In the file pseudocode is the pseudocode for the lifetime.py script
 
 **DATA FILES:** testfiles.zip
 
-**REQUIRED MODULES:** the script lifetime.py uses the python 3 modules statistics and argparse
+**REQUIRED MODULES:** the script lifetime.py uses the python 3 modules *statistics* and *argparse*
 
 **USES OF THE SCRIPT**
 
@@ -19,10 +19,10 @@ python3 lifetime.py bridge*.dat --dtime 10 --lib residuelibrary.txt --out lifeti
 
 python3 lifetime.py bridge*.dat -dt 10 -l residuelibrary.txt -o lifetimetable.txt
 
-**Required inputs:**
+**Required inputs:**<br/>
 bridge*.dat: specifies that the script should read all files that start with bridge and ends with the prefix .dat
 
-**Optional inputs:**
+**Optional inputs:**<br/>
 *--dtime:* converts frame number into time in ps. Default value is 1. If dt=10, then the timeinterval between each frame is 10 ps.
 
 
@@ -31,7 +31,7 @@ bridge*.dat: specifies that the script should read all files that start with bri
 
 *--out:* allows one to chose the name of the output.
 
-**The script provides a table:**\
+**The script provides a table:**<br/>
 *Contactname* (name of the contact)
 
 *Occupancy %* (the fraction of the trajectory where the contact is present)
@@ -45,4 +45,4 @@ bridge*.dat: specifies that the script should read all files that start with bri
 *MaxVal* (max lifetime)
 
 
-To test the script one can *unzip* use the files stored in *testfiles.zip* (includes bridge_x_y.dat files and residuelibary.txt).
+To test the script one can **unzip** use the files stored in **testfiles.zip** (includes bridge_x_y.dat files and residuelibary.txt).

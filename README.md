@@ -11,7 +11,7 @@ In the file pseudocode is the pseudocode for the lifetime.py script
 **USES OF THE SCRIPT**
 
 The script **lifetime.py** calculates the lifetime for bridging water contacts between protein residues and dna residues (Protres-WAT-Dnares).
-The script reads contact files of the type *bridge_x_y.dat* (x=proteinres number; y=dna nucleotide number), where the rows in the files corresponds to frame number, and each fame has either the number 1 (contact is present) or 0 (contact is not present).
+The script reads contact files of the type **bridge_x_y.dat** (x=proteinres number; y=dna nucleotide number), where the rows in the files corresponds to frame number, and each fame has either the number 1 (contact is present) or 0 (contact is not present).
 
 **To run the script use for example one of:**
 

@@ -24,11 +24,25 @@ bridge*.dat: specifies that the script should read all files that start with bri
 
 Optional inputs:
 --dtime: converts frame number into time in ps. Default value is 1. If dt=10, then the timeinterval between each frame is 10 ps.
+
+
 --lib: takes a residuelibrary file that will be used to give the contacts correct names of the type Protres-WAT-Dnares. The file is composed of two columns: col1=residue number (x or y in bridge_x_y.dat) and col2=correct residue name. If this file is not included the contacts mantain the filename as name.
+
+
 --out: allows one to chose the name of the output.
 
 The script provide a table:
-Contactname (name of the contact) Occupancy % (the fraction of the trajectory where the contact is present) LifetimeMean (average lifetime in ps) stdev (standard deviation of the lifetime)  MinVal (min lifetime) MaxVal (max lifetime)
+Contactname (name of the contact)
+
+Occupancy % (the fraction of the trajectory where the contact is present)
+
+LifetimeMean (average lifetime in ps)
+
+stdev (standard deviation of the lifetime)
+
+MinVal (min lifetime) 
+
+MaxVal (max lifetime)
 
 
 To test the script one can unzip use the files stored in testfiles.zip (includes bridge_x_y.dat files and residuelibary.txt).
